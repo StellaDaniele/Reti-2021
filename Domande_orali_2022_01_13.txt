@@ -86,3 +86,39 @@
 - Cosa cambia tra un paradigma di client-server, peer-to-perr e cloud computing?
 - Come viene aperta una connessione TCP e come vengono assegnati i sequence number?
 - Immaginiamo che A abbia iniziato una connessione perché deve richiedere un file a B: la connessione inizia dalla slow start, come evolve con una SSTRESH = 4?
+- Come funziona HTTP? Che differenze ci sono tra HTTP 1.0 e 1.1?
+
+- ARQ, funzionamento di go-back-n e selective repeat illustrando differenze e vantaggi/svantaggi di entrambi.
+- Cosa si intende per longest prefix matching?
+- Cosa si intende per Poisoned Reverse?
+- Esercizio con Dijakstra
+
+- In che cosa consistono e per cosa si usano le VLAN?
+- Cosa si intende per backward learning?
+- Come funziona la fase di congestion avoidance? (esempio su carta)
+
+- Come funziona il CRC?
+- Come si potrebbe provare a correggere degli errori?
+- Come funziona il traceroute?
+- Esercizio di assegnazione IP. 
+
+- Differenza tra classful e classless internet routing.
+* forse manca una domanda, la aggiungerò *
+- Cos'è l'indirizzo di loop-back?
+- Esercizio TCP: congestion avoidance, CWND = 3 e il primo pacchetto viene perso.
+
+- Cos'è una dorsale in OSPF?
+- Cause della congestione in internet? Se un router avesse una coda infinita, ci sarebbero comunque dei problemi di congestione?
+- Come si potrebbe aggirare una AIMD?
+- Come funziona DHCP? A cosa serve? A che livello è? Che indirizzo IP usa la sorgente nel caso in cui non avesse ancora un indirizzo IP? E che indirizzo di destinazione utilizza? Broadcast locale o di rete?
+- Se il DHCP è impostato male o non funziona, cosa succede? Assumendo che non si possa assegnare l'indirizzo IP manualmente.
+- Esercizio TCP: slow start, CWND = 6 e si perdono i primi due pacchetti.
+
+- A cosa serve un Access Point? Segmenta i domini di broadcast? Come potrei fare se volessi dividere i domini di broadcast e che vantaggi potrei averne?
+- Mi racconti che tipo di funzionalità offre un NAT. Un host può raggiungere un altro host che ha un NAT?
+- Esercizio con Bellman-Ford.
+
+- Cosa si intende per longest prefix matching?
+- Mi elenchi tutti i tipi di indirizzi IP che conosce e a cosa servono.
+- Un'altra domanda che non ricordo
+- Esercizio TCP: congestion avoidance, CWND = 12 si perde il primo pacchetto.
