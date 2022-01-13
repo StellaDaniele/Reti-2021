@@ -65,3 +65,24 @@
 - Mi racconti il protocollo di accesso al mezzo di IEEE 802.11.
 - Il protocollo RIP, che tipo di protocollo è? Che vantaggio ha? Che problemi avrebbe nel caso in cui aumentassimo il numero di hop massimi?
 - TCP, perdendo 2 pacchetti e partendo in congestion avoidance.
+
+- Definire i vari tipi di ritardo: accodamento, trasmissione, propagazione e elaborazione di nodo.
+- Mi racconti cosa sa sul protocollo BGP.
+- Dal punto di vista del protocollo BGP di norma si espongono tutte le rotte nell'AS o si può decidere?
+- Differenze principali tra IPv4 e IPv6?
+- OSPF, disegnando l'albero dopo aver applicato l'algoritmo.
+
+- Nel protocollo Ethernet si utilizza il CSMA/CD, perché? Che vantaggi dà?
+- Si può fare il collision detection anche in reti wireless?
+- Quali protocolli e tecnologie di acceso multiplo al canale ci sono? Diferenza tra ALOHA puro e slotted, tra CSMA 1-persistene e p-persistente.
+- Esercizio di assegnazione di indirizzi IP. Con un pool di indirizzi 8.9.10.64, trovare la massima maschera di rete per avere un indirizzo di rete valido. Creiamo 3 sottoreti (10, 20, 20 host) tutti da esporre verso la rete. Si può fare?
+
+- Facendo riferimento ad una domanda sbagliata dallo studente allo scritto: in 802.11 si riesce ad evitare le collisioni? Si evitano sempre? Perché si potrebbero presentare delle collisioni?
+- Come si fa quando un pacchetto IPv6 deve passare per uno o più router che non supportano IPv6?
+- Cos'è ma MTU? Come si arriva dalla Maximum Transmission Unit alla Maximum Segment Size?
+- Dal punto di vista del TCP, come viene effettuato il controllo di flusso? Con i 16 bit del campo RWND, come faccio ad esprimere che posso trasmettere di più di 64kByte?
+- Con una topologia data, si illustrino i distance vector.
+
+- Cosa cambia tra un paradigma di client-server, peer-to-perr e cloud computing?
+- Come viene aperta una connessione TCP e come vengono assegnati i sequence number?
+- Immaginiamo che A abbia iniziato una connessione perché deve richiedere un file a B: la connessione inizia dalla slow start, come evolve con una SSTRESH = 4?
