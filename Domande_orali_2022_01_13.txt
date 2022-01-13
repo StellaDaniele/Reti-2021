@@ -52,3 +52,16 @@
 - Ha rifatto un esercizio che lo studente aveva sbagliato nello scritto. Dando una tabella di instradamento e un indirizzo IP, dire su quale interfaccia viene inoltrato.
 - Differenza tra data plane e control plane di un router.
 - Cos'è e come funziona OSPF?
+- Esercizio con Bellman-Ford
+
+- Come si gestisce un servizio di posta elettronica?
+- Perché un utente non utilizza SMTP direttamente sul suo PC?
+- Come funziona il protocollo di collision avoidance per il Wi-Fi con RTS e CTS?
+- Quali sono i problemi introdotti da questo metodo? Terminale nascosto e terminale esposto.
+- Mi racconti cosa è una query DNS ricorsiva. Che percorso fa la richiesta sia all'andata che al ritorno?
+- Creare due reti in modo che siano contigue e che quindi possano essere inserite come una sola entry in una tabella di instradamento di un router.
+
+- Che relazione ci deve essere tra la finestra di ricezione e quella di trasmissione?
+- Mi racconti il protocollo di accesso al mezzo di IEEE 802.11.
+- Il protocollo RIP, che tipo di protocollo è? Che vantaggio ha? Che problemi avrebbe nel caso in cui aumentassimo il numero di hop massimi?
+- TCP, perdendo 2 pacchetti e partendo in congestion avoidance.
