@@ -1,0 +1,54 @@
+- Cos'è un network address translation?
+- Cosa si intende per proxy ARP?
+- Congestion avoidance con una CWND = 6 e si perde il pacchetto numero 4 
+
+- A che cosa serve un cookie?
+- E una cache HTTP invece?
+- Come si gestisce una cache? Come si verifica se serve contattare il server oppure no?
+- Cosa si intende per CSMA 1-persistente?
+- Supponga di avere un pool di indirizzi 8.8.4.8/29, è un indirizzo di rete corretto? Perché? Creare due sottoreti nelle quali ci possano stare almeno 4 host. è possibile farlo? In una sottorete /30 ci stanno 3 host? Perché? 
+
+- Mi racconti il sistema di acceso al mezzo di 802.11 Wi-Fi. Mi definisca "CSMA/CA".
+- Quali sono i modi per chiudere una connessione TCP?
+- Vediamo come evolve lo slow start dall'inizio supponendo di partire da una finestra di 1.
+
+- Mi spieghi come funziona il protocollo DHCP. A cosa serve, come funziona, a che livello è,... Che protocollo si usa per capire se c'è un altro host che sta utilizzando un determinato indirizzo IP link-local?
+- Come funzionano i protocolli di routing a distance vector? Spiegazione su carta di un esempio.
+
+- Mi spieghi le differenze principali tra TCP e UDP. 
+- Dal punto di vista del multiplexing, come si differenziano UDP e TCP?
+- Mi racconti il protocollo DNS: come funziona, a cosa serve,...
+- Esercizio di creare sottoreti circa come il secondo studente, solo con una /28 e fatto più velocemente. Data una piccola rete, assegnare gli indirizzi di rete dal pool ricavato suddividendo la /28.
+
+- Cosa si intende per incapsulamento?
+- Quali sono i vantaggi di un'architettura a strati?
+- Mi racconti quali tipi di indirizzi IP conosce.
+- Che differenza c'è tra CSMA non persistente, persistente e p-persistente.
+- Proviamo l'algoritmo di Dijakstra su carta.
+
+- Qual è la differenza tra CRC e checksum?
+- Come funziona il protocollo ARP?
+- Andando a livello 7, mi racconti le differenze principali tra HTTP 1.0, 1.1 e 2.0.
+- Tutti i passaggi di OSPF partendo da un nodo.
+
+- Come funziona TCP? 
+- Cosa si intende per AIMD? Che cosa ci permette di fare?
+- Nello schema di trasmissione di TCP, quando avviene l'addittive increase e multiplicative decrease?
+- Esercizio di assegnazione degli indirizzi, con una rete privata con un indirizzo pubblico 121.15.1.4. Impostare gli indirizzi IP di tutta la rete privata sapendo che nelle varie sottoreti private ci vanno tot host.
+
+- Mi spieghi come funzoiò ae  perche si usa la frammentazione a livello IP.
+- Mi spieghi la differenza tra un protocollo a link state e un potocollo a distance vector.
+- Evoluzione di TCP, partendo a congestion avoidance, CWND = 5 e si perde un pacchetto (ha indicato sul foglio quale, credo il quinto).
+
+- In una rete di switch a cosa serve utilizzare un protocollo di spanning tree.
+- A cosa servono le VLAN, come si fanno, ...
+- Dato una rete /27, suddividere in reti che comprendono 6 host (compreso l'indirizzo del router). 
+
+- Con una piccola rete con uno switch e qualche host, partendo da zero (lo switch non ha conoscenza di dove raggiungere gli host), si doveva inviare dei pacchetti tra vari host.
+- Mi sa dire qualcosa di BBR?
+- Mi dica la differenza tra BBR e cubic
+- TCP, slow start, 4 pacchetti [1...4] e si perde il 6.
+
+- Ha rifatto un esercizio che lo studente aveva sbagliato nello scritto. Dando una tabella di instradamento e un indirizzo IP, dire su quale interfaccia viene inoltrato.
+- Differenza tra data plane e control plane di un router.
+- Cos'è e come funziona OSPF?
