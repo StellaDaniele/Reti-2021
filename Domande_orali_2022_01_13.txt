@@ -1,3 +1,5 @@
+Tutti gli orali dalle 8:30 alle 16:00 del giorno 13/01/2022. Verso la fine le domande erano sempre più o meno le stesse quindi credo che in linea di massima queste siano tutte le domande che il prof. Casari chiede.
+
 - Cos'è un network address translation?
 - Cosa si intende per proxy ARP?
 - Congestion avoidance con una CWND = 6 e si perde il pacchetto numero 4 
@@ -103,7 +105,7 @@
 - Esercizio di assegnazione IP. 
 
 - Differenza tra classful e classless internet routing.
-* forse manca una domanda, la aggiungerò *
+- Quindi, se io fossi un utente e lei il mio Internet Service Provider, e le dicessi che ho bisogno al massimo di 30 indirizzi IP pubblici, lei che tipo di rete mi darebbe? I due indirizzi in più per cosa verrano utilizzati?
 - Cos'è l'indirizzo di loop-back?
 - Esercizio TCP: congestion avoidance, CWND = 3 e il primo pacchetto viene perso.
 
