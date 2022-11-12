@@ -1,0 +1,372 @@
+Domande fornite in preparazione all'esame di reti anno 2020-2021. Alcune domande sono a risposta multipla altre a risposta singola. All'esame erano state fatte domande solo a risposta singola.
+
+1.Quale di queste è una corretta definizione di throughput?
+
+Scegli un'alternativa:
+a. Pacchetti ricevuti correttamente
+b. Numero di accessi ai dati
+c. Pacchetti ricevuti correttamente al secondo
+d. Numero di task terminati
+e. Preferisco non rispondere
+
+--------------------------------
+
+2. Per quali ragione, principalmente, un utente non usa il protocollo SMTP per leggere la propria posta elettronica?
+
+Scegli un'alternativa:
+a. Perché SMTP non consente di ricevere posta da altri server
+b. Perché questo cancellerebbe i messaggi dal server di posta
+c. Perché SMTP funziona solo tra server
+d. Perché il server dell’utente dovrebbe essere sempre attivo per ricevere i messaggi che gli vengono inviati
+e. Preferisco non rispondere
+
+--------------------------------
+
+3. Perché la commutazione di pacchetto è “meglio” della commutazione di circuito?
+
+Scegli un'alternativa:
+a. Perché permette a più utenti di condividere le stesse risorse efficientemente
+b. Perché riserva le risorse per una certa comunicazione
+c. Perché prevede una maniera semplice di prenotare le risorse
+d. Perché evita a priori le congestioni
+e. Preferisco non rispondere
+
+--------------------------------
+
+4. Cos’è un cavo Ethernet S/FTP?
+
+Scegli un'alternativa:
+a. Un cavo che include una schermatura per ciascun doppino e una per il cavo intero
+b. Un cavo in cui c’è solo una schermatura esterna per l’intero cavo
+c. Preferisco non rispondere
+d. Un cavo in cui i soli doppini sono schermati
+e. Un cavo in cui solo 2 doppini su 3 sono schermati
+
+--------------------------------
+
+5. Che differenza c’è tra una query DNS ricorsiva e una iterativa?
+
+Scegli un'alternativa:
+a. Quella ricorsiva si può eseguire solo se il nome di dominio da risolvere si trova nella propria rete locale
+b. Quella ricorsiva prevede che l’host richiedente interroghi uno per uno tutti i server nella gerarchia di DNS, fino a quello autoritativo del dominio cercato
+c. Quella ricorsiva prevede che l’host richiedente deleghi il server DNS locale, che, a catena, delega tutti i server incontrati percorrendo la gerarchia di DNS fino a quello autoritativo del dominio cercato 
+d. Quella iterativa delega il recupero delle informazioni a un server DNS locale
+e. Preferisco non rispondere
+
+--------------------------------
+
+6. Che differenza c’è tra un sistema di rilevamento errori basato su Cyclic Redundancy Check e uno basato su checksum?
+
+Scegli un'alternativa:
+a. Il CRC lavora su parole di 32 bit, il checksum su parole di 16 bit 
+b. CRC richiede la divisione per un numero binario, il checksum si basa solo su somme binarie
+c. Preferisco non rispondere
+d. Il CRC richiede solo somme binarie, il checksum solo moltiplicazioni e divisioni
+e. Il checksum permette anche di correggere errori, il CRC no
+
+--------------------------------
+
+7. Come fa un host A a chiudere gentilmente una connessione TCP con l’host B?
+
+Scegli un'alternativa:
+a. A invia un segmento con flag FIN a 1, B risponde con un segmento con flag FIN e ACK a 1, B invia ad A i segmenti eventualmente rimasti, B invia un segmento con flag FIN a 1, A risponde con FIN+ACK
+b. A invia un segmento con flag FIN a 1, B risponde con un segmento con flag FIN e ACK a 1
+c. A invia un segmento con flag RST a 1
+d. A invia un segmento con flag RST a 1, B risponde con un segmento avente flag RST e ACK a 1
+e. Preferisco non rispondere
+
+--------------------------------
+
+8. Cosa si intende per incapsulamento?
+
+Scegli un'alternativa:
+a. Il processo per cui una determinata unità dati viene racchiusa tra un header (e opzionalmente un trailer) di un altro protocollo, ma solo se non contiene già header di altri protocolli
+b. Una funzione di livello 4 per cui diversi datagrammi vengono segmentati e inviati sequenzialmente
+c. Un processo di livello 7 che è propria solo di alcune applicazioni
+d. Preferisco non rispondere
+e. Il processo per cui una determinata unità dati viene racchiusa tra un header (e opzionalmente un trailer) di un altro protocollo, indipendentemente dal suo contenuto
+
+--------------------------------
+
+9. Il prodotto banda-ritardo è il prodotto tra il tasso di trasmissione in [bit/s] e il ritardo di propagazione su un link. Cos’altro esprime questa quantità?
+
+Scegli un'alternativa:
+a. La massima lunghezza di un pacchetto per cui è improbabile riscontrare errori di trasmissione
+b. Il prodotto tra il ritardo di accodamento in un router e la banda del link di uscita
+c. Il prodotto tra il ritardo di trasmissione e la banda del link
+d. Preferisco non rispondere
+e. Se vengono trasmessi abbastanza bit, rappresenta il numero massimo di bit contemporaneamente in viaggio lungo il collegamento
+
+--------------------------------
+
+10. Perché una cache web è utile?
+
+Scegli un'alternativa:
+a. Perché ospita tutte le componenti di una pagina web e le fornisce localmente a chi ne fa richiesta
+b. Perché scarica il link di accesso a Internet di una LAN, fornendo localmente i contenuti statici
+c. Perché controlla periodicamente se una pagina web remota è cambiata
+d. Perché scarica i contenuti dal web utilizzando un link separato da quello di tutti gli altri host
+e. Preferisco non rispondere
+
+--------------------------------
+11. Detti:
+- L la lunghezza di un pacchetto [bit]
+- R il tasso di trasmissione [bit/s]
+- d la lunghezza di un collegamento [m]
+- c la velocità di propagazione [m/s]
+In che condizioni i primi bit del pacchetto vengono ricevuti prima di completare la trasmissione?
+
+Scegli un'alternativa:
+a. Preferisco non rispondere
+b. L/c > d/R
+c. R/L > d/c
+d. L/R > d/c 
+e. R/c < L/c
+
+--------------------------------
+
+12. Quale di queste è una caratteristica di un protocollo MAC CSMA p-persistente, per p<1?
+
+Scegli un'alternativa:
+a. Preferisco non rispondere
+b. Se trova il canale occupato, attende un tempo sufficientemente lungo, e poi effettua nuovamente la procedura di sensing
+c. Se trova il canale occupato, aspetta che si liberi e poi trasmette immediatamente
+d. Se trova il canale occupato, attende finché non si libera, poi: con probabilità p trasmette il frame; con probabilità (1-p) va in backoff
+e. Se trova il canale libero, attende un tempo detto di backoff prima di trasmettere
+
+--------------------------------
+
+13. Il backward learning è:
+
+Scegli un'alternativa:
+a. L’algoritmo con cui gli switch imparano su quale porta possono raggiungere un certo indirizzo di livello 2
+b. Preferisco non rispondere
+c. Il sistema con cui gli switch separano i domini di broadcast delle porte ad essi collegate
+d. Il modo in cui gli switch eliminano link ridondanti per evitare loop
+e. Il meccanismo per cui, se lo switch non sa attraverso quale porta raggiungere un destinatario, invia il frame in broadcast su tutte le porte eccetto quella da cui il frame è arrivato
+
+--------------------------------
+
+14. Perché organizzare una LAN fisica in più VLAN?:
+
+Scegli un'alternativa:
+a. Per evitare di isolare aree specifiche della rete
+b. Preferisco non rispondere
+c. Per gestire automaticamente gli algoritmi di routing
+d. Per segmentare i domini di broadcast
+e. Perché il protocollo IP può gestire un numero massimo di host in una certa LAN
+
+--------------------------------
+
+15. Quali di queste funzioni sono implementate dal livello di trasporto (layer 4)?:
+
+Scegli un'alternativa:
+a. Trasferimento di dati senza errori ed in ordine su un collegamento end-to-end
+b. Trasferimento di dati in modalità multicast da una sorgente a più destinazioni
+c. Preferisco non rispondere
+d. Determinazione della corrispondenza tra l’indirizzo MAC e l’indirizzo IP del destinatario, se questo si trova su una sottorete diversa
+e. Scoperta del percorso ottimo di instradamento tra la sorgente e la destinazione
+
+--------------------------------
+
+16. Che differenza c'è tra una query DNS ricorsiva e una iterativa? 
+
+a. Quella ricorsiva prevede che l'host richiedente deleghi il server DNS locale, che, a catena, delega tutti i server incontrati percorrendo la gerarchia di DNS fino a quello autoritativo del dominio cercato
+b. Quella iterativa delega il recupero delle informazioni a un server DNS locale
+c. Quella ricorsiva delega il recupero delle informazioni a un server DNS locale
+d. Quella ricorsiva prevede che l'host richiedente interroghi uno per uno tutti i server nella gerarchia di DNS fino a quello autoritativo del dominio cercato
+
+--------------------------------
+
+17. Cos'è la codifica base64? 
+
+a. Un algoritmo per rappresentare gruppi di 6 bit usando 8 bit tramite l'aggiunta di due bit casuali
+b. Un algoritmo per rappresentare gruppi di 6 bit usando 8 bit, in modo che gli 8 bit risultanti abbiano tutti il primo bit a 0
+c. Un algoritmo per compattare 8 bit in 6 bit attraverso una procedura di compressione
+d. Un algoritmo per rappresentare gruppi di 6 bit usando 8 bit, in modo che gli 8 bit risultanti rappresentino lettere maiuscole e minuscole, numeri, e pochi caratteri speciali
+
+--------------------------------
+
+18. Perché la distribuzione di file in modalità peer-to-peer può essere conveniente? 
+
+a. Perché non richiede al server di inviare N copie del file, una per ogni host
+b. Perché permette a più host di collaborare all'upload di un file
+c. Perché risolve il problema del collo di bottiglia sul link di upload del server
+d. Perché risolve il problema del collo di bottiglia sul link di download dei client
+
+--------------------------------
+
+19.Quale tra le seguenti strategie di distribuzione dei server arriva più vicina all'utente finale?
+
+a. Peer-to-peer
+b. Cloud computing
+c. Enter-deep
+d. Bring-home
+
+--------------------------------
+
+20. Cosa si intende per query flooding?
+
+a. Nel contesto di una distributed hash table, è l'inoltro di una query ai peer in una rete di copertura
+b. E' un processo usato da Bit torrent per recuperare i frammenti dei file da scaricare
+c. Nel contesto di una applicazione client/server, è l'inoltro di una query a molteplici server
+d. E' il sistema con cui un browser richiede in parallelo tutti i componenti di una pagina web scaricata
+
+--------------------------------
+
+21. Con riferimento al livello di trasporto, cosa comportano il multiplexing e il demultiplexing? 
+
+a. L'inserimento di Protocol Control Information per consentire l'indirizzamento dei segmenti dalla socket mittente alla socket ricevente
+b. In TCP, la trasmissione alla stessa socket di tutti i segmenti riportanti lo stesso indirizzo IP di sorgente, la stessa porta di sorgente, lo stesso indirizzo IP di destinazione e la stessa porta di destinazione
+c. Al trasmettitore: l'invio di segmenti provenienti da diverse socket sullo stesso link di rete.
+d. In UDP, la trasmissione alla stessa socket di tutti i segmenti riportanti lo stesso indirizzo IP di destinazione e la stessa porta di destinazione
+
+--------------------------------
+
+22. In UDP, il checksum (potete selezionare più risposte)
+
+a. Consente il controllo della correttezza dei soli campi dell'header di un segmento
+b. Consente il controllo della correttezza sia dei campi dell'header sia del payload di un segmento
+c. Consente il controllo della correttezza del solo payload di un segmento
+d. E' calcolato in modo che il ricevitore abbia certezza che il segmento è ricevuto correttamente quando, sommando tutte le parole di 16 bit del segmento checksum incluso, ottiene una parola di 16 bit tutti a 1
+
+--------------------------------
+
+23. Perché il pipelining migliora l'utilizzo delle risorse di un link tra due host? 
+
+a. Perché consente al mittente di inviare più pacchetti prima di ricevere i corrispondenti ACK
+b. Perché non rimane in silenzio ad attendere di ricevere un ACK per ogni pacchetto inviato
+c. Perché non satura il buffer di ricezione del ricevente
+d. Perché non satura il buffer di ricezione del mittente
+
+--------------------------------
+
+24.Come fa un host A a chiudere una connessione TCP con l'host B? 
+
+a. A invia un segmento con flag RST a 1
+b. A invia un segmento con flag FIN a 1, B risponde con un segmento con flag FIN e ACK a 1, B invia ad A i dati rimasti, B invia FIN, A risponde con FIN+ACK
+c. A invia un segmento con flag FIN a 1, B risponde con un segmento con flag FIN e ACK a 1, B invia FIN, A risponde con FIN+ACK
+d. A invia un segmento con flag FIN a 1, B risponde con un segmento con flag FIN e ACK a 1
+
+--------------------------------
+
+25. Quali dei seguenti casi rappresenta una conseguenza della congestione? 
+
+a. Se il router ha un buffer infinito: il ritardo molto elevato che si ottiene quando ci si avvicina al throughput massimo di un link
+b. In situazioni tipiche: scarto pacchetti per code finite, più lavoro per consegnare i segmenti, throughput ridotto
+c. Se il router ha un buffer finito: il ritardo troppo elevato causa timeout prematuri al mittente, che reinvia inutilmente pacchetti già consegnati
+d. Se più connessioni si dividono lo stesso link: ogni connessione osserva esattamente lo stesso throughput
+
+--------------------------------
+
+26. Che differenza c'è tra un sistema di rilevamento errori basato su Cyclic Redundancy Check e uno basato su checksum?
+
+a. Il checksum permette anche di correggere errori, il CRC no
+b. Il CRC lavora su parole di 32 bit, il checksum su parole di 16 bit
+c. Il CRC richiede solo somme binarie, il checksum solo moltiplicazioni e divisioni
+d. CRC richiede la divisione per un numero binario, il checksum si basa solo su somme binarie
+
+--------------------------------
+
+27.Quale di queste è una caratteristica di un protocollo MAC CSMA p-persistente? 
+
+a. Se trova il canale occupato, attende finché non si libera, poi: con probabilità p trasmette il frame; con probabilità (1-p) va in backoff
+b. Se trova il canale occupato, aspetta che si liberi e poi trasmette immediatamente,
+c. Se trova il canale vuoto, trasmette immediatamente
+d. Se trova il canale occupato, attende un tempo sufficientemente lungo, e poi effettua nuovamente la procedura di sensing
+
+--------------------------------
+
+28. In uno switch, la tabella che associa l'indirizzo MAC di un nodo alla porta su cui quel nodo è raggiungibile rappresenta un'associazione:
+
+a. uno (MAC dell'host) a molti (porta dello switch)
+b. uno (MAC dell'host) a uno (porta dello switch)
+c. molti (MAC dell'host) a uno (porta dello switch)
+d. molti (MAC dell'host) a molti (porta dello switch)
+
+--------------------------------
+
+29. Il backward learning è :
+
+a. L'algoritmo con cui gli switch imparano su quale porta possono raggiungere un certo host
+b. Il meccanismo per cui, se lo switch non sa attraverso quale porta raggiungere un destinatario, invia il frame in broadcast su tutte le porte eccetto quella da cui il frame è arrivato
+c. L'algoritmo con cui gli switch imparano su quale porta possono raggiungere un certo indirizzo di livello 2
+d. Il modo in cui gli switch eliminano link ridondanti per evitare loop
+
+--------------------------------
+
+30. Le ragioni principali per organizzare una LAN fisica in più VLAN includono :
+
+a. La segmentazione dei domini di broadcast
+b. La protezione di host sensibili, il cui traffico dati non dovrebbe essere inoltrato ad altre LAN
+c. La gestione automatica degli algoritmi di routing
+d. L'isolamento di aree sperimentali della rete, per evitare che malfunzionamenti o imprevisti creino problemi a tutta la LAN
+
+--------------------------------
+
+31. Perché la commutazione di pacchetto è "meglio" della commutazione di circuito?
+
+a. Perché riserva le risorse per una certa comunicazione
+b. Perché permette a più utenti di condividere le stesse risorse efficientemente
+c. Perché evita a priori le congestioni
+d. Perché non necessita la prenotazione delle risorse
+
+--------------------------------
+
+32. Quale di queste è una corretta definizione di throughput?
+
+a. Pacchetti ricevuti correttamente
+b. Pacchetti ricevuti correttamente al secondo
+c. Sessioni telefoniche gestite contemporaneamente
+d. Sessioni telefoniche gestite ogni mese
+e. Transazioni e-commerce completate al minuto
+f. Accessi ai dati eseguiti su un database ogni 10 minuti
+
+--------------------------------
+
+33. Cos'è il prodotto banda-ritardo? 
+
+a. Il prodotto tra la velocità di propagazione in [m/s] e il ritardo di propagazione in [s]
+b. Il prodotto tra il tasso di trasmissione in [bit/s] e il ritardo di propagazione in [s]
+c. Se vengono trasmessi abbastanza bit, rappresenta il numero di bit contemporaneamente presenti
+sul collegamento
+d. Il prodotto tra il ritardo di accodamento in un router e la banda del link di uscita
+
+--------------------------------
+
+34. Quali di queste funzioni sono implementate dal livello di trasporto (layer 4)?
+
+a. Trasferimento di dati senza errori su un collegamento end-to-end
+b. Trasferimento di dati segmentati in ordine su un collegamento end-to-end
+c. Controllo di flusso: adattamento della velocità di trasmissione per evitare congestioni
+d. Dipende dal protocollo usato
+
+--------------------------------
+
+35. Quali vantaggi presenta un'architettura a livelli (layer)?
+
+a. Rende chiare le interazioni tra le componenti dell'architettura, perché i vari livelli sono
+interconnessi sequenzialmente:
+b. Riduce la duplicazione di funzionalità, perché compartimenta perfettamente i componenti di un
+sistema
+c. Facilita il progetto del sistema, perché è possibile sostituire l'implementazione di un livello senza
+cambiare nulla degli altri
+d. Assicura che ogni layer possieda sempre tutte le informazioni che gli servono per operare
+
+--------------------------------
+
+36. Perché una cache web è utile? 
+
+a. Perché ospita tutte le componenti di una pagina web e le fornisce localmente a chi ne fa richiesta
+b. Perché scarica i contenuti dal web utilizzando un link separato da quello di tutti gli altri host
+c. Perché scarica il link di accesso fornendo localmente i contenuti statici
+d. Perché controlla automaticamente se una pagina web e cambiata: se non lo è, fornisce la copia locale invece di quella remota
+
+--------------------------------
+
+37. Con riferimento al livello di trasporto, cosa comportano il multiplexing e il demultiplexing?
+
+a. Al trasmettitore: l'invio di segmenti provenienti da diverse socket sullo stesso link di rete. Al ricevitore: la separazione dei segmenti a seconda della socket di destinazione, e la consegna a tali socket
+b. L'inserimento di Protocol Control Information per consentire l'indirizzamento dei segmenti dalla socket mittente alla socket ricevente
+c. In UDP, la trasmissione alla stessa socket di tutti i segmenti riportanti lo stesso indirizzo IP di destinazione e la stessa porta di destinazione
+d. In TCP, la trasmissione alla stessa socket di tutti i segmenti riportanti lo stesso indirizzo IP di sorgente, la stessa porta di sorgente, lo stesso indirizzo IP di destinazione e la stessa porta di destinazione
